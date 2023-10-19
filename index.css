@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+
+.container {
+    border-radius: .5rem;
+    color: white;
+    background-color: #2b2424;
+    font: bold 2rem Inter, sans-serif;
+    padding: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(4,auto);
+    width: auto;
+    margin: 0;
+ }
+
+
+img {
+    grid-area: 1/1/2/-1;
+    width: 100%;
+    display: block;
+    border-radius: .5rem;
+}
+
+.position{
+    color:#F3BF99;
+    font-family: Inter;
+    font-weight: 400;
+    text-align: center;
+}
+.personal-website{
+    color:#F5F5F5;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.contact-me-btns {
+    width: 100%;
+    display: flex;
+    gap:.5em;
+    justify-items: space-between;
+}
+
+
+ .contact-me-btns > a {
+    padding: .5rem .8rem;
+    text-decoration:  none;
+    width: 100%;
+    background-color: floralwhite;
+    color: black;
+    border-radius: .5rem;
+    font-size: inherit;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+section.content {
+     grid-area: 2/2/2/-2;
+     text-align: center;
+}
+
+.interests > p, .about > p {
+    color: #DCDCDC;
+    font-size: .65em;
+    font-weight: normal;
+    line-height: 2rem;
+}
+
+
+.about, .interests, .contact-me-btns {
+    grid-column: 2/-2;
+    margin: .5em 0;
+}
+
+h3{
+    margin: .5em auto;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    grid-area: 5/2/auto/-1;
+}
+
+ul > li {
+    color: white;
+    list-style: none;
+    border-radius: .5rem;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap:.5em;
+    padding: 0;
+}
+
+li > a {
+    text-decoration: none;
+    color: inherit;
+    font: 1rem sans-serif;
+}
