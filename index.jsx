@@ -93,10 +93,6 @@ function App() {
   )
 }
 
-//const fragment = document.createDocumentFragment();
-//fragment.textContent = App();
-//document.getElementById("root").innerHTML = fragment.textContent;
-
 ReactDOM.createRoot(document.getElementById("root"))
   .render(<App />)
 
