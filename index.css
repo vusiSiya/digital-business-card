@@ -42,10 +42,12 @@ img {
 
 
 .contact-me-btns {
-    width: 100%;
-    display: flex;
-    gap:.5em;
-    justify-items: space-between;
+  width: 100%;
+  display: flex;
+  gap:.5em;
+  justify-items: space-between;
+  flex-wrap: wrap;
+  
 }
 
 
