@@ -62,7 +62,7 @@ img {
   align-items:center;
   justify-content: center;
 }
-.linkedIn-btn{
+a.linkedIn-btn{
   background-color:#5093E2;
   color:#FFFF;
 }
@@ -92,13 +92,7 @@ h3{
 footer {
     padding: 0;
     margin: 0;
-    grid-area: 5/2/auto/-1;
-}
-
-ul > li {
-    color: white;
-    list-style: none;
-    border-radius: .5rem;
+    grid-area: 5/5/auto/7;
 }
 
 ul {
@@ -106,10 +100,21 @@ ul {
     flex-wrap: wrap;
     gap:.5em;
     padding: 0;
+    justify-content: center;
 }
 
+ul > li {
+    color: white;
+    list-style: none;
+    border-radius: .5rem;
+    margin: auto .5em;
+}
 li > a {
     text-decoration: none;
     color: inherit;
     font: 1rem sans-serif;
+}
+
+li > a > svg {
+    font-size: 2rem;
 }

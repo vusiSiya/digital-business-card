@@ -32,7 +32,7 @@ function About() {
         <p className="about-me-p">
           I am an aspiring Front-End Developer who enjoys bringing
           creative ideas to life, on the web. I like learning new things,
-          and finding better ways to express creative ideas with code.
+          and finding the best solution to a problem.
         </p>
       </section>
     </>
