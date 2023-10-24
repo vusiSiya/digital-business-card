@@ -2,11 +2,12 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
+import profilePic from "./profile-pic.jpg"
 
 function Info() {
   return (
     <>
-      <img src="profile-pic.jpg" alt="profile photo" />
+      <img src={profilePic} alt="profile photo" />
       <section className="content">
         <h3 className="name">Siyabonga Mahlalela</h3>
         <h5 className="position">Frontend Developer</h5>
