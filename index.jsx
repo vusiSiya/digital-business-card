@@ -12,12 +12,29 @@ function Info() {
 			<section className="content">
 			<h3 className="name">Siyabonga Mahlalela</h3>
 			<h5 className="job-position">Frontend Developer</h5>
-			<a className="personal-website" href="siya-portfolio.netlify.app">my projects</a>
+			<a
+				className="personal-website"
+				href="https://siya-portfolio.netlify.app"
+				target="_blank"
+				rel="noreferrer noopener"
+			>
+				personal website
+			</a>
 			<div className ="contact-me-btns">
-				<a href="mailto:siyabongamahlalela71@gmail.com" className="email-btn">
+				<a
+					className="email-btn"
+					href="mailto:siyabongamahlalela71@gmail.com"
+					target="_blank"
+					rel="noreferrer noopener"
+				>
 					<HiMail/>  Email
 				</a>
-				<a href="https://www.linkedin.com/in/siyabonga-mahlalela-3b130a266/" className="linkedIn-btn">
+				<a
+					className="linkedIn-btn"	
+					href="https://www.linkedin.com/in/siyabonga-mahlalela-3b130a266/"
+					target="_blank"
+					rel="noreferrer noopener"
+				>
 					<FaLinkedin /> LinkedIn
 				</a>
 			</div>
@@ -62,16 +79,20 @@ function Footer() {
 			<ul>
 				<li>
 					<a 
-						href="https://github.com/vusiSiya" 
 						title="My Github Profile"
+						href="https://github.com/vusiSiya"
+						target="_blank"
+						rel="noreferrer noopener" 
 					>
 						<FaGithubSquare/> 
 					</a>  
 				</li>
 				<li>
 					<a 
-						href="www.linkedin.com/in/siyabonga-mahlalela-3b130a266" 
 						title="My LinkedIn Profile"
+						href="https://linkedin.com/in/siyabonga-mahlalela-3b130a266" 
+						target="_blank"
+						rel="noreferrer noopener" 
 					>
 					 <FaLinkedin/>
 					</a> 

@@ -6,7 +6,7 @@
     "react-icons": "^4.11.0"
   },
   "devDependencies": {
-    "vite": "latest"
+    "vite": "^5.1.6"
   },
   "scripts": {
     "start": "vite",
