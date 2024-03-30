@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
+import { FaLinkedin, FaGithubSquare} from 'react-icons/fa';
 import {HiMail} from 'react-icons/hi';
 import image from "./profile-pic.jpg"
 
@@ -18,8 +18,9 @@ function Info() {
 				target="_blank"
 				rel="noreferrer noopener"
 			>
-				personal website
+				siya-portfolio
 			</a>
+			
 			<div className ="contact-me-btns">
 				<a
 					className="email-btn"
@@ -49,9 +50,10 @@ function About() {
 			<section  className="about">
 				<h3>About Me</h3>
 				<p className="about-me-p">
-				I am an aspiring Front-End Developer who enjoys bringing
-				creative ideas to life, on the web. I like learning new things,
-				and finding better ways to express creative ideas with code.
+					I am an aspiring Front-End Developer who enjoys bringing
+					creative ideas to life, on the web.<br></br>
+					I like learning new things,
+					and finding better ways to express creative ideas with code.
 				</p>
 			</section>
 		</>
@@ -105,14 +107,12 @@ function Footer() {
 
 function App() {
 	return (
-		<>
 		<div className="container">
 			<Info />
 			<About />
 			<Interests/>
 			<Footer />
 		</div>
-		</>
 	)
 }
 
